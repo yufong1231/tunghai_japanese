@@ -8,6 +8,9 @@ body{
 .navber-bg{
   background-color: rgb(190,215,239);
   text-align: center;
+  padding: 0 16px;
+  height: 60px;
+  min-width: 1180px;
 }
 .navbar-toggler-item{
   margin: 0 auto;
@@ -30,6 +33,7 @@ body{
   color: white;
   padding: 2px;
   font-weight: 700;
+  font-size: 21px;
 }
 
 .content-bg{
@@ -52,6 +56,7 @@ body{
   font-weight: 450;
   margin-bottom: 15px;
   font-family: 'Rounded Mplus 1c', sans-serif;
+  cursor: default !important;
 }
 .btn-item{
   width: 100%;
