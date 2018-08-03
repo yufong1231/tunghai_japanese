@@ -26,7 +26,7 @@ body{
 .nav-item{
   background-color: rgb(157,195,230);
   margin: 5px 2px;
-
+  line-height: 45px;
 }
 .item-text{
   font-family: 'Rounded Mplus 1c', sans-serif;
