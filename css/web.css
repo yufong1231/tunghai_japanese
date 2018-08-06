@@ -44,6 +44,7 @@ body{
   height: 700px;
   background-color: rgb(255,249, 229);
   border-radius: 50px;
+  padding: 30px 30px;
 }
 .content-right{
   padding: 0 30px;
@@ -115,4 +116,45 @@ body{
   width: 300px;
   height: 100px;
   margin: 0 auto;
+}
+
+.fc-toolbar{
+  border-bottom: 4px rgb(73,124,171) solid;
+  color: rgb(73,124,171);
+}
+.fc-toolbar h2{
+  margin: 5px;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+  font-weight: 600;
+}
+.fc-day-header{
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgb(73,124,171);
+  color: white;
+  height: 40px;
+}
+.fc-widget-header{
+  margin-bottom: 3px !important;
+}
+.fc-day-header span{
+  line-height: 40px;
+}
+.fc-day{
+  background-color: rgb(255,187,187);
+  border: 3px solid rgb(255,249, 229) !important;
+}
+
+.fc-day-number {
+  float: left !important;
+  padding-left: 10px !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+.fc-today{
+  background-color: rgb(255,153,153) !important;
+  border-top: 3px solid rgb(255,249, 229) !important;
+  border-left: 3px solid rgb(255,249, 229) !important;
+  border-right: 3px solid rgb(255,249, 229) !important;
 }
