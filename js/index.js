@@ -17,7 +17,7 @@ $(function() {
       textColor: 'white'
     },
     eventClick: function(event) {
-      alert(event.title);
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSf8w1_r8tKEl8Ld_tzYxSG8fKf4LP5vAAd6pFv_PEF0EwHHLQ/viewform');
       return false;
     }
   });
