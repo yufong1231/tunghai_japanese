@@ -1,0 +1,13 @@
+.p2-content-left{
+  width: 200px;
+  height: 100%;
+  background-color: rgb(255,249, 229);
+  border-radius: 50px;
+  padding: 30px 30px;
+}
+.p2-text{
+  color: rgb(45,78,107);
+  font-weight: 700;
+  font-size: 20px;
+  margin: 40px auto 0px auto;
+}
