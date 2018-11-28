@@ -12,12 +12,12 @@ $(function() {
     },
     displayEventTime: false,
     events: {
-      googleCalendarId: 'da71eaunibj3c38ped6u03mook@group.calendar.google.com',
+      googleCalendarId: 'thu.jigaku@gmail.com',
       color: 'rgb(118,184,198)',
       textColor: 'white'
     },
     eventClick: function(event) {
-      window.open('https://docs.google.com/forms/d/e/1FAIpQLSf8w1_r8tKEl8Ld_tzYxSG8fKf4LP5vAAd6pFv_PEF0EwHHLQ/viewform');
+      //window.open('https://docs.google.com/forms/d/e/1FAIpQLSf8w1_r8tKEl8Ld_tzYxSG8fKf4LP5vAAd6pFv_PEF0EwHHLQ/viewform');
       return false;
     }
   });
