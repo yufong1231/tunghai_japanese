@@ -10,7 +10,8 @@ $(function() {
       center: '',
       right:  'title'
     },
-    displayEventTime: false,
+    timeFormat: 'h:mm',
+    displayEventTime: true,
     events: {
       googleCalendarId: 'thu.jigaku@gmail.com',
       color: 'rgb(118,184,198)',
