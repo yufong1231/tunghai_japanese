@@ -1,3 +1,15 @@
+.p1-content-title{
+  color: rgb(255, 103, 103);
+  font-weight: 800;
+  border-bottom: 2px solid rgb(255, 103, 103);
+  padding: 15px 0;
+}
+.pencil-icon{
+  position: absolute;
+  right: 30px;
+  font-size: 60px;
+  color: rgb(242, 158, 102);
+}
 .p1-content-left{
   width: 200px;
   height: 100%;
@@ -5,34 +17,12 @@
   border-radius: 50px;
   padding: 30px 30px;
 }
-.p1-content-title{
-  font-family: 'Rounded Mplus 1c', sans-serif;
-  color: rgb(73,124,171);
-  border-bottom: 2px solid black;
-  font-size: 22px;
-}
-.p1-content-date{
-  font-family: 'Rounded Mplus 1c', sans-serif;
-  color: black;
-  font-weight: 700;
-  margin-top: 30px;
-  font-size: 16px;
+.p1-content-space{
+  height: 60px;
 }
 .p1-content-text{
-  font-family: 'Rounded Mplus 1c', sans-serif;
+
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
-}
-.p1-content-readmore{
-  color: rgb(73,124,171);
-  font-weight: 700;
-  float: right;
-  cursor:pointer;
-  border-bottom: 1px solid rgb(73,124,171);
-}
-.p1-content-download{
-  color: rgb(73,124,171);
-  font-size: 16px;
-  font-weight: 700;
 }
