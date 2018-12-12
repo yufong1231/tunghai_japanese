@@ -58,4 +58,3 @@ else{
   lang = 0
 }
 update()
-console.log(lang)
