@@ -43,7 +43,7 @@ function change_page(){
   currentPage = window.location.pathname.split('.html')[0].split('/').pop()
   if(currentPage == "index"){
     update()
-    window.location.reload()
+
   }
   else if(currentPage == "page1"){
     location.href='./page1_c.html'
@@ -69,6 +69,7 @@ function change_page(){
   else if(currentPage == "page4_c"){
     location.href='./page4.html'
   }
+  window.location.reload()
 }
 function update(){
   if(lang == 0){
