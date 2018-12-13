@@ -1,0 +1,28 @@
+.p1-content-title{
+  color: rgb(255, 208, 65);
+  font-weight: 800;
+  border-bottom: 2px solid rgb(255, 208, 65);
+  padding: 15px 0;
+}
+.pencil-icon{
+  position: absolute;
+  right: 30px;
+  font-size: 60px;
+  color: rgb(255, 208, 65);
+}
+.p1-content-text{
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(45, 78, 107);
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  margin: 100px 0;
+}
+.p1-content-left{
+  width: 200px;
+  height: 100%;
+  background-color: rgb(255,249, 229);
+  border-radius: 50px;
+  padding: 30px 30px;
+}
