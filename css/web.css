@@ -36,6 +36,7 @@ body{
   background-color: rgb(73,124,171);
   padding: 3px 10px;
   border: 0;
+  cursor: pointer;
 }
 .lang-text{
   color: white;
