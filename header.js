@@ -6,7 +6,9 @@ function japanese_header(){
   }
   else{
     header.innerHTML = `<div class="media-header">\
-                          <p class="media-header-title">東海大學日本語言文學系-自學中心</p>\
+                          <button class="media-home-btn" onclick="location.href='./index.html'"><i class="fab fa-houzz fa-5x"></i></button>
+                          <span class="media-header-title">自學中心</span>\
+                          <button class="media-nav-btn" onclick="location.href=''"><i class="fas fa-bars fa-5x"></i></button>\
                         </div>`
   }
 
@@ -21,6 +23,10 @@ function japanese_rightMenu(){
                        <!--button type="button" class="btn btn-item" id="btn5" onclick="window.open('https://www.facebook.com/thujapanesecorner/?hc_ref=ARRfHSn67p-LvC5zgNZh7o467PE0BHutA3zC1AsPW0lVCL8wFNQ9Ws-v-bKAmLyYtwg&fref=nf')">自学に関係する研究</button-->\
                        <button type="button" class="btn btn-item" id="btn6" onclick="location.href='./page7.html'">自律学習実践研究会</button>\
                        <button type="button" class="btn btn-item" id="btn7" onclick="location.href='./page8.html'">お薦めのウェブサイト</button>`
+  }
+  else{
+    document.getElementById("leftMenu").className = "media-content-left col-12";
+    document.getElementsById("ed").className = "media-event";
   }
 }
 
