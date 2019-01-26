@@ -1,4 +1,4 @@
-.p1-content-left{
+#p1-content-left{
   width: 200px;
   height: 100%;
   background-color: rgb(255,249, 229);
@@ -55,9 +55,9 @@
 .p1-content-download p{
   margin-bottom: 0;
 }
-.p1-content-download-link{
+#p1-content-download-link{
   text-align: center;
 }
-.p1-content-download-link a{
+#p1-content-download-link a{
   display: block;
 }

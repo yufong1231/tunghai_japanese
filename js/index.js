@@ -20,13 +20,13 @@ $(function() {
       textColor: 'white'
     },
     eventRender: function(event, element, view) {
-        console.log(event.start);
-        return $('<div class="event">' + event.start.format('HH:mm') + '-' + event.end.format('HH:mm') + '</div>'
+        //console.log(event.start);
+        return $('<div class="event" id="ed">' + event.start.format('HH:mm') + '-' + event.end.format('HH:mm') + '</div>'
                 +'<div class="event">' + event.title + '</div>'
                 +'<p class="event">' + event.location + '</p>');
     },
     eventClick: function(event) {
-      console.log(event);
+      //console.log(event);
       //window.open('https://docs.google.com/forms/d/e/1FAIpQLSf8w1_r8tKEl8Ld_tzYxSG8fKf4LP5vAAd6pFv_PEF0EwHHLQ/viewform');
       return false;
     }

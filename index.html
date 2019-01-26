@@ -21,8 +21,9 @@
  	  <script src='fullcalendar-3.9.0/fullcalendar.min.js'></script>
 		<script type='text/javascript' src='fullcalendar-3.9.0/gcal.js'></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+  	<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/web.css" />
+
 	</head>
 	<body>
     <!-- Top -->
@@ -34,11 +35,14 @@
 
 		</div>
 		<!-- Home Button -->
-		<button class="home-btn" onclick="location.href='#'"><i class="fas fa-home fa-3x"></i></button>
+		<div id="home">
+
+		</div>
+
     <!-- Content -->
     <div class="content-bg">
       <div class="row">
-        <div class="col-9 content-left">
+        <div class="col-9 content-left" id="leftMenu">
 					<div id="calendar"></div>
 				</div>
         <div class="col-3 content-right" id="rightMenu">
