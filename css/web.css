@@ -28,6 +28,8 @@ body{
   line-height: 200px;
 }
 .media-home-btn{
+  background-color: rgba(0,0, 0, 0);
+  border: 0;
   position: absolute;
   left: 10px;
 
@@ -35,6 +37,8 @@ body{
   height: 200px;
 }
 .media-nav-btn{
+  background-color: rgba(0,0, 0, 0);
+  border: 0;
   position: absolute;
   right: 10px;
 
