@@ -1,5 +1,5 @@
 $.getJSON("./data/page7.json", function(datas) {
-    var content = document.getElementById("p1-content-left")
+    var content = document.getElementById("leftMenu")
     datas.forEach(function(data){
       console.log(data);
       content.innerHTML += `<div class="p1-content-choose" onclick="location.href='${data['link']}'">\

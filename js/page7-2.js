@@ -1,5 +1,5 @@
 $.getJSON("./data/page7.json", function(datas) {
-    var content = document.getElementById("p1-content-left")
+    var content = document.getElementById("leftMenu")
     var data = datas[2];
     content.innerHTML = `<h1 class="p1-content-title">${data['title']}</h1>\
     					           <h2 class="p1-content-date">${data['date']}</h2>\

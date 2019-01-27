@@ -7,9 +7,18 @@ function japanese_header(){
   else{
     header.innerHTML = `<div class="media-header">\
                           <button class="media-home-btn" onclick="location.href='./index.html'"><i class="fab fa-houzz fa-5x"></i></button>
-                          <span class="media-header-title">自學中心</span>\
-                          <button class="media-nav-btn" onclick="location.href=''"><i class="fas fa-bars fa-5x"></i></button>\
+                          <span class="media-header-title">自学センター</span>\
+                          <button class="media-nav-btn" id="flip"><i class="fas fa-bars fa-5x"></i></button>\
                         </div>`
+
+    header.innerHTML += `<div id="panel">\
+                           <button type="button" class="media-btn-item" onclick="change_lang(1)">中文網站入口</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page1.html'">自学センターとは</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page3.html'">活動の紹介</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page4.html'">自学スペースと利用時間</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html'">自律学習実践研究会</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page8.html'">お薦めのウェブサイト</button>\
+                         </div>`
   }
 
 }
@@ -26,7 +35,7 @@ function japanese_rightMenu(){
   }
   else{
     document.getElementById("leftMenu").className = "media-content-left col-12";
-    document.getElementsById("ed").className = "media-event";
+    //document.getElementsById("ed").className = "media-event";
   }
 }
 
@@ -40,8 +49,16 @@ function chinese_header(){
     header.innerHTML = `<div class="media-header">\
                           <button class="media-home-btn" onclick="location.href='./index.html'"><i class="fab fa-houzz fa-5x"></i></button>
                           <span class="media-header-title">自學中心</span>\
-                          <button class="media-nav-btn" onclick="location.href=''"><i class="fas fa-bars fa-5x"></i></button>\
+                          <button class="media-nav-btn" id="flip"><i class="fas fa-bars fa-5x"></i></button>\
                         </div>`
+    header.innerHTML += `<div id="panel">\
+                           <button type="button" class="media-btn-item" onclick="change_lang(0)">日文網站入口</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page1_c.html'">何謂自學中心</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page3_c.html'">活動介紹</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page4_c.html'">自學空間與開放時間</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html'">自律學習實踐研究會</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page8.html'">推薦網站</button>\
+                         </div>`
   }
 }
 function chinese_rightMenu(){
@@ -57,7 +74,7 @@ function chinese_rightMenu(){
   }
   else{
     document.getElementById("leftMenu").className = "media-content-left col-12";
-    document.getElementsById("ed").className = "media-event";
+    //document.getElementById("ed").className = "media-event";
   }
 }
 
@@ -118,6 +135,11 @@ function homeBtn(){
     var home = document.getElementById("home")
     home.innerHTML = `<button class="home-btn" onclick="location.href='./index.html'"><i class="fas fa-home fa-3x"></i></button>`;
   }
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").animate({width:'toggle'},350);
+    });
+  });
 }
 //init
 var lang;

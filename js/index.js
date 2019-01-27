@@ -21,9 +21,17 @@ $(function() {
     },
     eventRender: function(event, element, view) {
         //console.log(event.start);
-        return $('<div class="event" id="ed">' + event.start.format('HH:mm') + '-' + event.end.format('HH:mm') + '</div>'
-                +'<div class="event">' + event.title + '</div>'
-                +'<p class="event">' + event.location + '</p>');
+        if(screen.width > 768){
+          return $('<div class="event" id="ed">' + event.start.format('HH:mm') + '-' + event.end.format('HH:mm') + '</div>'
+                  +'<div class="event">' + event.title + '</div>'
+                  +'<p class="event">' + event.location + '</p>');
+        }
+        else{
+          return $('<div class="media-event" id="ed">' + event.start.format('HH:mm') + '-' + event.end.format('HH:mm') + '</div>'
+                  +'<div class="media-event">' + event.title + '</div>'
+                  +'<p class="media-event">' + event.location + '</p>');
+        }
+
     },
     eventClick: function(event) {
       //console.log(event);
