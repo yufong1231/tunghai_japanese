@@ -1,49 +1,8 @@
 [
   {
-    "date": "2018/12/15",
-    "title": "第四回 自律学習実践研究会",
-    "link": "./page7-4.html",
-    "pdf": "./download/自律学習実践研究会2018-4ポスタ-.pdf",
-    "download": [
-
-                ]
-  },
-  {
-    "date": "2018/11/17",
-    "title": "第三回 自律学習実践研究会",
-    "link": "./page7-3.html",
-    "pdf": "./download/自律学習実践研究会2018-3ポスター.pdf",
-    "download": [
-                  {
-                    "name": "3-1 武藤泰子",
-                    "link": "./download/実践3-1-武藤.pdf"
-                  },
-                  {
-                    "name": "3-2 工藤節子",
-                    "link": "./download/実践3-2-工藤.pdf"
-                  }
-                ]
-  },
-  {
-    "date": "2018/10/27",
-    "title": "第二回 自律学習実践研究会",
-    "link": "./page7-2.html",
-    "pdf": "./download/自律学習実践研究会2018-2ポスター.pdf",
-    "download": [
-                  {
-                    "name": "2-1 許均瑞",
-                    "link": "./download/実践2-1-許.pdf"
-                  },
-                  {
-                    "name": "2-2 阿部公彥",
-                    "link": "./download/実践２-2-阿部.pdf"
-                  }
-                ]
-  },
-  {
+    "number": "1",
     "date": "2018/9/29",
     "title": "第一回 自律学習実践研究会",
-    "link": "./page7-1.html",
     "pdf": "./download/自律学習実践研究会2018-1ポスター.pdf",
     "download": [
                   {
@@ -58,6 +17,47 @@
                     "name": "1-3 許筠靈",
                     "link": "./download/実践１-3-許.pdf"
                   }
+                ]
+  },
+  {
+    "number": "2",
+    "date": "2018/10/27",
+    "title": "第二回 自律学習実践研究会",
+    "pdf": "./download/自律学習実践研究会2018-2ポスター.pdf",
+    "download": [
+                  {
+                    "name": "2-1 許均瑞",
+                    "link": "./download/実践2-1-許.pdf"
+                  },
+                  {
+                    "name": "2-2 阿部公彥",
+                    "link": "./download/実践２-2-阿部.pdf"
+                  }
+                ]
+  },
+  {
+    "number": "3",
+    "date": "2018/11/17",
+    "title": "第三回 自律学習実践研究会",
+    "pdf": "./download/自律学習実践研究会2018-3ポスター.pdf",
+    "download": [
+                  {
+                    "name": "3-1 武藤泰子",
+                    "link": "./download/実践3-1-武藤.pdf"
+                  },
+                  {
+                    "name": "3-2 工藤節子",
+                    "link": "./download/実践3-2-工藤.pdf"
+                  }
+                ]
+  },
+  {
+    "number": "4",
+    "date": "2018/12/15",
+    "title": "第四回 自律学習実践研究会",
+    "pdf": "./download/自律学習実践研究会2018-4ポスタ-.pdf",
+    "download": [
+
                 ]
   }
 ]

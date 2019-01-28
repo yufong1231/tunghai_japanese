@@ -16,7 +16,7 @@ function japanese_header(){
                            <button type="button" class="media-btn-item" onclick="location.href='./page1.html'">自学センターとは</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page3.html'">活動の紹介</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page4.html'">自学スペースと利用時間</button>\
-                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html'">自律学習実践研究会</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html?page=1'">自律学習実践研究会</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page8.html'">お薦めのウェブサイト</button>\
                          </div>`
   }
@@ -30,7 +30,7 @@ function japanese_rightMenu(){
                        <button type="button" class="btn btn-item" id="btn3" onclick="location.href='./page3.html'">活動の紹介</button>\
                        <button type="button" class="btn btn-item" id="btn4" onclick="location.href='./page4.html'">自学スペースと利用時間</button>\
                        <!--button type="button" class="btn btn-item" id="btn5" onclick="window.open('https://www.facebook.com/thujapanesecorner/?hc_ref=ARRfHSn67p-LvC5zgNZh7o467PE0BHutA3zC1AsPW0lVCL8wFNQ9Ws-v-bKAmLyYtwg&fref=nf')">自学に関係する研究</button-->\
-                       <button type="button" class="btn btn-item" id="btn6" onclick="location.href='./page7.html'">自律学習実践研究会</button>\
+                       <button type="button" class="btn btn-item" id="btn6" onclick="location.href='./page7.html?page=1'">自律学習実践研究会</button>\
                        <button type="button" class="btn btn-item" id="btn7" onclick="location.href='./page8.html'">お薦めのウェブサイト</button>`
   }
   else{
@@ -56,7 +56,7 @@ function chinese_header(){
                            <button type="button" class="media-btn-item" onclick="location.href='./page1_c.html'">何謂自學中心</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page3_c.html'">活動介紹</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page4_c.html'">自學空間與開放時間</button>\
-                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html'">自律學習實踐研究會</button>\
+                           <button type="button" class="media-btn-item" onclick="location.href='./page7.html?page=1'">自律學習實踐研究會</button>\
                            <button type="button" class="media-btn-item" onclick="location.href='./page8.html'">推薦網站</button>\
                          </div>`
   }
@@ -69,7 +69,7 @@ function chinese_rightMenu(){
                        <button type="button" class="btn btn-item" id="btn3" onclick="location.href='./page3_c.html'">活動介紹</button>\
                        <button type="button" class="btn btn-item" id="btn4" onclick="location.href='./page4_c.html'">自學空間與開放時間</button>\
                        <!--button type="button" class="btn btn-item" id="btn5" onclick="window.open('https://www.facebook.com/thujapanesecorner/?hc_ref=ARRfHSn67p-LvC5zgNZh7o467PE0BHutA3zC1AsPW0lVCL8wFNQ9Ws-v-bKAmLyYtwg&fref=nf')">自學相關研究</button-->\
-                       <button type="button" class="btn btn-item" id="btn6" onclick="location.href='./page7.html'">自律學習實踐研究會</button>\
+                       <button type="button" class="btn btn-item" id="btn6" onclick="location.href='./page7.html?page=1'">自律學習實踐研究會</button>\
                        <button type="button" class="btn btn-item" id="btn7" onclick="location.href='./page8.html'">推薦網站</button>`
   }
   else{

@@ -1,6 +1,7 @@
 $.getJSON("./data/page7.json", function(datas) {
+    var number = getValue("number")
     var content = document.getElementById("leftMenu")
-    var data = datas[3];
+    var data = datas[number-1];
     content.innerHTML = `<h1 class="p1-content-title">${data['title']}</h1>\
     					           <h2 class="p1-content-date">${data['date']}</h2>\
 	                       <object data="${data['pdf']}" type="application/pdf" width="100%" height="600px">\
@@ -19,3 +20,25 @@ $.getJSON("./data/page7.json", function(datas) {
 
 
 });
+
+function getValue(varname)
+{
+  var url = window.location.href;
+  var qparts = url.split("?");
+  if (qparts.length == 0){return "";}
+  var query = qparts[1];
+  var vars = query.split("&amp;");
+  var value = "";
+  for (i=0; i<vars.length; i++)
+  {
+    var parts = vars[i].split("=");
+    if (parts[0] == varname)
+    {
+      value = parts[1];
+      break;
+    }
+  }
+  value = unescape(value);
+  value.replace(/\+/g," ");
+  return value;
+}

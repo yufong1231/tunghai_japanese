@@ -7,13 +7,13 @@
   box-sizing: border-box;
   background-color: rgb(45, 78, 107);
   border-radius: 20px;
-  padding: 50px 30px 10px 30px;
+  padding: 40px 20px 10px 20px;
   margin-bottom: 20px;
   cursor: pointer;
 }
 .p1-content-text{
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   border-bottom: 2px white solid;
 }
 .p1-content-date{
@@ -22,4 +22,13 @@
   color: white;
   display:block;
   text-align: right;
+}
+.pagination-container{
+
+}
+.pagination-btn{
+  cursor: pointer;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(45, 78, 107);
 }
