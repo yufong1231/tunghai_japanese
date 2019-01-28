@@ -1,7 +1,7 @@
 $.getJSON("./data/page7.json", function(datas) {
     var page = getValue("page")-1
     var content = document.getElementById("leftMenu")
-    var pageNum = 3
+    var pageNum = 2
     var count = pageNum
     for(var i=datas.length-1-page*count; i>=0&&count>0; i--){
       count = count-1

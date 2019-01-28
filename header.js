@@ -148,7 +148,7 @@ if(localStorage.hasOwnProperty('lang')){
 }
 else{
   localStorage.setItem("lang","0")
-  lang = 0
+  lang = 0;
 }
 homeBtn()
 update()
