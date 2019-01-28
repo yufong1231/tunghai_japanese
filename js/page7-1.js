@@ -2,6 +2,7 @@ $.getJSON("./data/page7.json", function(datas) {
     var number = getValue("number")
     var content = document.getElementById("leftMenu")
     var data = datas[number-1];
+    document.title = data['title'];
     content.innerHTML = `<h1 class="p1-content-title">${data['title']}</h1>\
     					           <h2 class="p1-content-date">${data['date']}</h2>\
 	                       <object data="${data['pdf']}" type="application/pdf" width="100%" height="600px">\

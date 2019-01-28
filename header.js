@@ -89,6 +89,7 @@ function change_lang(l){
 }
 function change_page(){
   currentPage = window.location.pathname.split('.html')[0].split('/').pop()
+
   if(currentPage == "index"){
     update()
 
@@ -117,7 +118,10 @@ function change_page(){
   else if(currentPage == "page4_c"){
     location.href='./page4.html'
   }
-  window.location.reload()
+  else if(currentPage == "page8"){
+    window.location.reload()
+  }
+  //window.location.reload()
 }
 function update(){
   if(lang == 0){
